@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'Apple Bold';
+  src: url(./Fonts/sf-pro-display_bold.woff2);
+}
+
+@font-face {
+  font-family: 'Apple Regular';
+  src: url(./Fonts/sf-pro-display_regular.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Apple Regular', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 34px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.96);
+  color: black;
+  font-family: "Apple Regular", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: fixed;
+  top: 0;
+}
+
+#nav h4,
+i {
+  font-weight: 100;
+  font-size: x-small;
+  cursor: pointer;
+}
+
+#diwali {
+  height: 80%;
+  width: 100%;
+  background-image: url('./assets/diwali.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#diwalitext {
+  text-align: center;
+  color: black;
+  padding-top: 285px;
+  font-family: 'Apple Bold', sans-serif;
+}
+
+#diwalitext h2 {
+  font-size: 45px;
+  margin-bottom: 7px;
+}
+
+#diwalitext p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#diwalitext button {
+  background-color: white;
+  color: royalblue;
+  font-size: small;
+  margin-top: 6px;
+  padding: 10px 15px;
+  border: 1px royalblue solid;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#diwalitext button:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+#hero {
+  height: 80%;
+  width: 100%;
+  background-image: url('./assets/iphone17pro.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#herotext {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Apple Bold', sans-serif;
+}
+
+#herotext h1 {
+  font-size: 2.5rem;
+  margin-bottom: 7px;
+}
+
+#herotext p {
+  font-weight: normal;
+  font-size: larger;
+}
+
+#herobuttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Apple Regular', sans-serif;
+}
+
+#herobuttons button {
+  background-color: royalblue;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#herobuttons button:nth-child(2) {
+  background-color: black;
+  color: royalblue;
+  border: 1px royalblue solid;
+}
+
+#herobuttons button:nth-child(2):hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.gap {
+  height: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#iphoneair {
+  width: 100%;
+  height: 70%;
+  background-image: url('./assets/hero_iphone_air.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#iphoneairtext {
+  color: black;
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Apple Bold', sans-serif;
+}
+
+#iphoneairtext h1 {
+  font-size: 2.5rem;
+  margin-bottom: 7px;
+}
+
+#iphoneairtext p {
+  font-size: larger;
+}
+
+#iphoneairbuttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Apple Regular', sans-serif;
+}
+
+#iphoneairbuttons button {
+  background-color: royalblue;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#iphoneairbuttons button:nth-child(2) {
+  background-color: white;
+  color: royalblue;
+  border: 1px royalblue solid;
+}
+
+#iphoneairbuttons button:nth-child(2):hover {
+  background-color: royalblue;
+  color: white;
+}
+
+#collections {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.collection {
+  height: 500px;
+  width: 590px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 80px;
+  margin: 5px 5px;
+}
+
+.collection-text {
+  text-align: center;
+  padding-top: 25px;
+  line-height: 1.2;
+  color: black;
+  font-family: 'Apple Bold', sans-serif;
+}
+
+.collection-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  font-family: 'Apple Bold', sans-serif;
+}
+
+.collection-text p {
+  font-size: large;
+  font-family: 'Apple Regular', sans-serif;
+}
+
+.collection-buttons {
+  text-align: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.collection-buttons button {
+  background-color: royalblue;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.collection-buttons button:nth-child(2) {
+  background-color: white;
+  color: royalblue;
+  border: 1px royalblue solid;
+}
+
+.collection-buttons button:nth-child(2):hover {
+  background-color: royalblue;
+  color: white;
+}
+
+#iphone17 {
+  background-image: url('./assets/iphone17.jpg');
+}
+
+#icloud {
+  background-image: url('./assets/icloud.jpg');
+}
+
+#iwatch {
+  background-image: url('./assets/apple_watch.jpg');
+}
+
+#airpods {
+  background-image: url('./assets/airpods_pro.jpg');
+}
+
+#ipadair {
+  background-image: url('./assets/ipad.jpg');
+}
+
+#tradein {
+  background-image: url('./assets/tradein.jpg');
+}
+
+#footer {
+  height: 400px;
+  width: 100%;
+  padding: 20px 250px;
+  font-family: 'Apple Regular', sans-serif;
+  background-color: #f5f5f7;
+  color: rgba(0, 0, 0, 0.56);
+
+}
+
+#footer p {
+  font-size: 9px;
+  line-height: 1.3333733333;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  margin-bottom: 9px;
+}
+
+#footer hr {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+#end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+#end p:nth-child(2) {
+  cursor: pointer;
+}
