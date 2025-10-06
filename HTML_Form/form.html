@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male"> Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"> Female</label><br><br>
+
+        <label for="country">Preferred Work Location:</label><br>
+        <select id="country" name="country">
+            <option value="Bangalore">Bangalore</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+        </select><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <details>
+            <summary>Terms and conditions</summary>
+            <p>By submitting this form, you agree to our terms and conditions.</p>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms"> I agree to the terms and conditions</label>
+        </details><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
