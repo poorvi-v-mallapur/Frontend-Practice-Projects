@@ -4,11 +4,14 @@ This repository contains a collection of basic frontend projects built using **H
 
 ## 📁 Projects Included
 
-- **HTML_Form**  
+- **HTML Form**  
   A simple HTML form demonstrating input fields, labels, and basic structure. Ideal for practicing form validation and styling.
 
-- **Apple_Landing_Page**  
-  A static recreation of Apple's landing page using HTML and CSS. Focused on layout, typography, and visual fidelity.
+- **Apple Landing Page** 
+  A static recreation of Apple’s landing page using HTML & CSS. Showcases flex, flex-wrapping, and alignment to create a clean UI.
+
+- **Hover Expand Gallery**
+  A dynamic photo gallery built with SCSS & Flexbox, where images expand on hover to reveal names. Highlights flex-grow, text overlay mixins, and smooth hover transitions for interactive UI design.
 
 - **Fonts**  
   A curated set of fonts used across projects. Useful for experimenting with typography and design aesthetics.
