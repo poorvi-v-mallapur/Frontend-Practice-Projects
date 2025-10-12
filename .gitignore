@@ -1,0 +1,34 @@
+# =====================
+# OS / System Files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE / Editor Files
+# =====================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# Node / Package Files (if any project uses npm)
+# =====================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =====================
+# Sass / CSS Cache / Maps
+# =====================
+.sass-cache/
+*.css.map
+
+# =====================
+# Misc / Temporary Files
+# =====================
+*.tmp
+*.log
+*.bak
+*.swp
