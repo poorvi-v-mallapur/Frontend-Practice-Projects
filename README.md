@@ -7,11 +7,14 @@ This repository contains a collection of basic frontend projects built using **H
 - **HTML Form**  
   A simple HTML form demonstrating input fields, labels, and basic structure. Ideal for practicing form validation and styling.
 
-- **Apple Landing Page** 
-  A static recreation of Apple’s landing page using HTML & CSS. Showcases flex, flex-wrapping, and alignment to create a clean UI.
+- **Apple Landing Page**  
+  A static recreation of Apple’s landing page using **HTML & CSS**. Showcases **Flexbox**, **flex-wrapping**, and alignment techniques to create a clean, responsive UI.
 
-- **Hover Expand Gallery**
-  A dynamic photo gallery built with SCSS & Flexbox, where images expand on hover to reveal names. Highlights flex-grow, text overlay mixins, and smooth hover transitions for interactive UI design.
+- **Hover Expand Gallery**  
+  A dynamic photo gallery built with **SCSS & Flexbox**, where images expand on hover to reveal names. Highlights **flex-grow**, **text overlay mixins**, and smooth **hover transitions** for interactive UI design.
+
+- **Lekker Website**  
+  A **recreation of Lekker Café’s landing page**, built using **CSS Grid and Flexbox**. Focuses on **grid-template-areas** and **hover-based microinteractions** that bring real-world web aesthetics to life.
 
 - **Fonts**  
   A curated set of fonts used across projects. Useful for experimenting with typography and design aesthetics.
@@ -23,6 +26,7 @@ To view or edit any project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/poorvi-v-mallapur/Frontend-Projects.git
+
    ```
 
 2. Navigate into any folder and open the .html file in your browser.
