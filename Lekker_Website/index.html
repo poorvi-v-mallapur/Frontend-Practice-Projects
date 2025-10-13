@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <div id="nav">
+                <div id="options">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">More<i class="ri-arrow-drop-down-line"></i></a></li>
+                    </ul>
+                </div>
+                <img height="22" id="logo" src="./assets/logo.svg" alt="Lekker Logo">
+                <div id="socials">
+                    <a target="_blank" href="https://www.instagram.com/lekkeruk/?hl=en-gb"><i class="ri-instagram-fill"></i></a>
+                    <a target="_blank" href="https://www.tiktok.com/@lekkeruk"><i class="ri-tiktok-fill"></i></a>
+                </div>
+            </div>
+
+            <div id="hero">
+                <h1>Welcome to Lekker</h1>
+                <h3>Breakfast | Lunch | Brunch | Coffee</h3>
+            </div>
+        </header>
+
+        <section id="sec1">
+            <div id="sec1-img">
+            </div>
+            <div id="sec1-text">
+                <h1>Lekker: Your All-Day Brunch Haven</h1>
+                <h4>Welcome to Lekker</h4>
+                <p>Your all-day brunch haven where every morning starts with the comforting aroma of freshly baked
+                    pastries and the rich warmth of specialty coffee. Inspired by the cozy cafés and vibrant food
+                    culture of home, we’ve brought a little piece of the Netherlands to the heart of the UK. Our bakery
+                    wakes before the sun to craft fresh, flaky delights daily – from buttery croissants to traditional
+                    Dutch treats – all made by hand, with care. Pair that with our carefully selected coffee blends,
+                    brewed to perfection, and you’ve got the perfect start (or pause) to your day. At Lekker, we invite
+                    you to slow down, sip, savor, and feel right at home.</p>
+            </div>
+        </section>
+
+        <section id="sec2">
+            <div class="sec2-img"></div>
+            <div class="sec2-img"></div>
+            <div class="sec2-img"></div>
+        </section>
+
+        <section id="sec3">
+            <h1>Lekker is Landing in Manchester!</h1>
+            <p>The wait is almost over—Lekker is bringing its signature brunch, bold flavours, and cosy vibes to
+                Manchester. Get ready for a new go-to spot for all things delicious.</p>
+            <p><b>Find us at:</b></p>
+            <p>259 Chapel Street, Manchester, M3 5JY</b></p>
+        </section>
+
+        <section id="sec4">
+            <div id="sec4-text">
+                <h1>The Art of Brunch, Done Right</h1>
+                <h4>Simple Moments, Every Day</h4>
+                <p>At Lekker, brunch isn’t just a meal — it’s an art form. Every plate is thoughtfully composed to be as
+                    visually stunning as it is delicious, with colour, texture, and balance at the heart of our
+                    presentation. Inspired by the elegance of European cafes and the cozy charm of Dutch hospitality,
+                    our dishes bring creativity to the table in every detail. Think golden poffertjes stacked with
+                    precision, vibrant smears of house-made compotes, and garnishes placed with intention – each dish
+                    designed to spark curiosity and delight before the first bite. We take pride in turning everyday
+                    ingredients into something special, where rustic meets refined, and casual feels elevated. At
+                    Lekker, we don’t just serve brunch – we serve beauty, flavour, and a little bit of Dutch magic on
+                    every plate.</p>
+            </div>
+            <div id="sec4-img"></div>
+        </section>
+
+        <footer>
+            <div id="footer-left">
+                <img id="logo-footer" src="./assets/logo.svg" alt="Lekker Logo">
+                <div id="social-icons">
+                    <a target="_blank" href="https://www.instagram.com/lekkeruk/?hl=en-gb"><i class="ri-instagram-fill"></i></a>
+                    <a target="_blank" href="https://www.tiktok.com/@lekkeruk"><i class="ri-tiktok-fill"></i></a>
+                </div>
+            </div>
+
+            <div id="footer-right">
+                <ul id="locations">
+                    <li>
+                        <h5>Birmingham</h5>
+                    </li>
+                    <li>
+                        <p>123 Brunch St, Birmingham, B1 1AA</p>
+                    </li>
+                    <li>
+                        <h5>Manchester</h5>
+                    </li>
+                    <li>
+                        <p>259 Chapel Street, Manchester, M3 5JY</p>
+                    </li>
+                </ul>
+                <ul id="footer-options">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">PRIVATE EVENTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div id="copyright">
+                <p>Copyright © 2025 - Lekker Cafe</p>
+            </div>
+        </footer>
+
+
+    </main>
+
+    <script>
+        window.addEventListener("scroll", () => {
+            const nav = document.querySelector("#nav");
+            if (window.scrollY > 0) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
