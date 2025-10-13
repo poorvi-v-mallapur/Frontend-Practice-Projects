@@ -35,7 +35,12 @@ body {
   top: 0;
 }
 
-#nav h4,
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav a,
 i {
   font-weight: 100;
   font-size: x-small;
