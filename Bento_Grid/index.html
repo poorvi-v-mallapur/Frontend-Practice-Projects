@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Grid</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        main {
+            height: 100%;
+            width: 100%;
+            background-color: #f3c5c0;
+            display: grid;
+            grid-template-columns: 35% 1fr 1fr 1fr;
+            grid-template-rows: 55% 45%;
+            grid-template-areas: 
+                "left top top top"
+                "left bottom1 bottom2 bottom3";
+            gap: 10px;
+            padding: 30px;
+        }
+        .grids {
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+        #left {
+            grid-area: left;
+            background-color: #f28b82;
+            background-image: url(./assets/c-l.jpg);
+            background-position: bottom;
+        }
+        #top {
+            grid-area: top;
+            background-image: url(./assets/c-t2.jpg);
+        }
+        #bottom1 {
+            grid-area: bottom1;
+            background-image: url(./assets/c-b1.jpg);
+        }
+        #bottom2 {
+            grid-area: bottom2;
+            background-image: url(./assets/c-b2.jpg);
+        }
+        #bottom3 {
+            grid-area: bottom3;
+            background-image: url(./assets/c-b3.jpg);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="left" class="grids"></div>
+        <div id="top" class="grids"></div>
+        <div id="bottom1" class="grids"></div>
+        <div id="bottom2" class="grids"></div>
+        <div id="bottom3" class="grids"></div>
+    </main>
+</body>
+</html>
