@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Alvy Heading";
+  src: url("../Fonts/alvy-headings.woff") format("woff");
+}
+@font-face {
+  font-family: "Alvy Regular";
+  src: url("../Fonts/alvy-regular.woff");
+}
+@font-face {
+  font-family: "Alvy Bold";
+  src: url("../Fonts/alvy-bold.woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  color: rgb(216, 211, 211);
+  font-family: "Alvy Regular", sans-serif;
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
+body {
+  background-color: rgb(26, 25, 25);
+}
+
+section {
+  max-width: 1900px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section .btm {
+  background-color: #2c2c2c;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2.5rem 17.5rem 3.5rem 2.5rem;
+}
+main section .btm p:nth-child(1) {
+  font-size: 1rem;
+  font-family: "Alvy Bold", sans-serif;
+  margin-bottom: 2rem;
+}
+main section .btm .btm-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section .btm .btm-text h1 {
+  font-size: 3.8rem;
+  font-weight: 550;
+  line-height: 1.1;
+  font-family: "Alvy Heading";
+  text-transform: uppercase;
+}
+main section .btm .btm-text p {
+  font-size: 1.4rem;
+  color: rgb(189, 185, 185);
+  margin-bottom: 1rem;
+}
+main section .btm .btm-text span {
+  font-size: 1rem;
+  font-family: "Alvy Bold", sans-serif;
+}
+main section .btm .btm-text span i {
+  border: 0.001rem solid rgba(235, 212, 212, 0.712);
+  background-color: rgba(40, 38, 38, 0.7764705882);
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+}
+
+@media (min-width: 966px) {
+  main section {
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+  main section .top,
+  main section .btm {
+    width: 50%;
+  }
+  main section .btm {
+    justify-content: space-between;
+    padding: 2.5rem;
+  }
+  main section .btm .btm-text h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  main section .btm .btm-text p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1.2rem;
+  }
+  main section .btm .btm-text span {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
