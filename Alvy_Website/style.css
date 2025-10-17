@@ -43,85 +43,116 @@ main {
   gap: 0rem;
   align-items: center;
 }
-main section {
+main section#sec1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
 }
-main section .top {
+main section#sec1 .top {
   width: 100%;
 }
-main section .top img {
+main section#sec1 .top img {
   width: 100%;
   border-radius: 0.7rem;
 }
-main section .btm {
+main section#sec1 .btm {
   background-color: #2c2c2c;
   border-radius: 0.7rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding: 2.5rem 17.5rem 3.5rem 2.5rem;
+  padding: 2.5rem 3.5rem 3.5rem 2.5rem;
 }
-main section .btm p:nth-child(1) {
+main section#sec1 .btm p:nth-child(1) {
   font-size: 1rem;
   font-family: "Alvy Bold", sans-serif;
   margin-bottom: 2rem;
 }
-main section .btm .btm-text {
+main section#sec1 .btm .btm-text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-main section .btm .btm-text h1 {
-  font-size: 3.8rem;
-  font-weight: 550;
+main section#sec1 .btm .btm-text h1 {
+  font-size: 3.5rem;
+  font-weight: 580;
   line-height: 1.1;
   font-family: "Alvy Heading";
   text-transform: uppercase;
 }
-main section .btm .btm-text p {
-  font-size: 1.4rem;
+main section#sec1 .btm .btm-text p {
+  font-size: 1.5rem;
   color: rgb(189, 185, 185);
   margin-bottom: 1rem;
 }
-main section .btm .btm-text span {
+main section#sec1 .btm .btm-text span {
   font-size: 1rem;
   font-family: "Alvy Bold", sans-serif;
 }
-main section .btm .btm-text span i {
+main section#sec1 .btm .btm-text span i {
   border: 0.001rem solid rgba(235, 212, 212, 0.712);
   background-color: rgba(40, 38, 38, 0.7764705882);
   padding: 0.4rem;
   margin-right: 0.4rem;
   border-radius: 50%;
 }
+main section#sec2 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+main section#sec2 .top, main section#sec2 .btm {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+main section#sec2 .element {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+main section#sec2 .element p {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  font-family: "Alvy Bold";
+}
+main section#sec2 .element h4 {
+  font-size: 2.5rem;
+  font-family: "Alvy Heading";
+  font-weight: 300;
+}
 
 @media (min-width: 966px) {
-  main section {
+  main section#sec1 {
     flex-direction: row;
     padding: 1.5rem;
   }
-  main section .top,
-  main section .btm {
+  main section#sec1 .top,
+  main section#sec1 .btm {
     width: 50%;
   }
-  main section .btm {
+  main section#sec1 .btm {
     justify-content: space-between;
     padding: 2.5rem;
   }
-  main section .btm .btm-text h1 {
+  main section#sec1 .btm .btm-text h1 {
     font-size: 3rem;
     font-weight: 400;
   }
-  main section .btm .btm-text p {
+  main section#sec1 .btm .btm-text p {
     font-size: 1rem;
     font-weight: 300;
     padding-bottom: 1.2rem;
   }
-  main section .btm .btm-text span {
+  main section#sec1 .btm .btm-text span {
     font-size: 0.8rem;
+  }
+  main section#sec2 {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
