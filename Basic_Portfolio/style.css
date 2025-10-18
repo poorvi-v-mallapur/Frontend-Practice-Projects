@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans";
+}
+
+nav {
+  color: rgb(249, 239, 239);
+  background-color: rgb(31, 31, 66);
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcf0;
+  gap: 2rem;
+  padding: 2rem 8rem;
+}
+main #about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 2rem;
+}
+main #about p {
+  text-align: center;
+}
+main .sections {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(181, 209, 200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .sections ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+main .sections ul li {
+  width: 60%;
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+main #education {
+  background-color: #ace5ee;
+}
+main #skills {
+  background-color: #fcfcc4;
+}
+main #projects {
+  background-color: #d7fdc0;
+}
+
+footer {
+  background-color: rgb(33, 33, 53);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
