@@ -9,7 +9,7 @@ A **mini front-end flexbox project** built with **SCSS**, showcasing a dynamic p
 
 ---
 
-## 💡 Features
+## 💡 What I have Learnt
 - Smooth hover transitions using `flex-grow`  
 - Text overlay animation with SCSS mixins   
 - Responsive layout with Flexbox (no frameworks used)  
