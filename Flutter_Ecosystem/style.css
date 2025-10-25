@@ -1,0 +1,664 @@
+@font-face {
+  font-family: "Main";
+  src: url("../Fonts/flutter-main.woff2");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../Fonts/flutter-secondary.woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+main nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+main nav .top {
+  width: 100%;
+  color: white;
+  font-size: 0.9rem;
+  font-family: "Main", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(124.64deg, rgb(2, 125, 253), rgb(131, 62, 242));
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+main nav .top p {
+  font-weight: 550;
+}
+main nav .btm {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+main nav .btm .logo img {
+  width: 8rem;
+}
+main nav .btm .menu a,
+main nav .btm .menu i,
+main nav .btm .menu button {
+  display: none;
+}
+main nav .btm .menu i:last-child {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+main section#sec1 {
+  width: 100%;
+  font-family: "Main", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(35deg, rgb(252, 221, 232), rgb(243, 252, 255) 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
+}
+main section#sec1 .top,
+main section#sec1 .btm {
+  max-width: 1290px;
+}
+main section#sec1 .top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+main section#sec1 .top img {
+  width: 90%;
+  max-width: 600px;
+}
+main section#sec1 .top h1 {
+  font-size: 2.9rem;
+  line-height: 1;
+  text-align: center;
+  max-width: 530px;
+}
+main section#sec1 .btm h2 {
+  font-size: 2.1rem;
+  font-weight: 200;
+  margin: 6.5rem 0 2.5rem;
+  text-align: center;
+}
+main section#sec2 {
+  width: 100%;
+  max-width: 1190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 4rem 2rem;
+}
+main section#sec2 .sec2 hr {
+  border-top: 3px solid rgba(84, 84, 84, 0.29);
+  border-radius: 3px;
+}
+main section#sec2 .sec2 h2 {
+  font-family: "Main", sans-serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+main section#sec2 .sec2 p {
+  color: #4A4A4A;
+  font-size: 1.1rem;
+  font-family: "Regular", sans-serif;
+  padding: 0 1rem 3rem 1rem;
+}
+main section#sec2 .sec2 img {
+  width: 90%;
+}
+main section#sec3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+main section#sec3 .top,
+main section#sec3 .btm {
+  max-width: 1290px;
+}
+main section#sec3 .top img {
+  max-width: 600px;
+}
+main section#sec3 .btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+main section#sec3 .btm h6 {
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec3 .btm h1 {
+  font-size: 3rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec3 .btm p {
+  max-width: 904px;
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-family: "Regular", sans-serif;
+  line-height: 1.4;
+}
+main section#sec3 .btm .btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  font-family: "Regular", sans-serif;
+}
+main section#sec3 .btm .btns button {
+  color: #0468D7;
+  background-color: white;
+  border: 0.02rem solid #0468D7;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+main section#sec3 .btm .btns button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #0468D7;
+}
+main section#sec3 .btm .btns p {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+main section#sec4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
+}
+main section#sec4 .top,
+main section#sec4 .btm {
+  max-width: 1290px;
+}
+main section#sec4 .top img {
+  max-width: 600px;
+}
+main section#sec4 .btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+main section#sec4 .btm h6 {
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec4 .btm h1 {
+  font-size: 2.8rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec4 .btm p {
+  color: #4A4A4A;
+  font-size: 1.1rem;
+  font-family: "Regular", sans-serif;
+  line-height: 1.4;
+  padding-right: 5.5rem;
+}
+main section#sec4 .btm button {
+  color: white;
+  background-color: #0468D7;
+  border: 0.02rem solid #0468D7;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+main section#sec4 .btm button:hover {
+  cursor: pointer;
+}
+main section#sec5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
+}
+main section#sec5 .top,
+main section#sec5 .btm {
+  max-width: 1290px;
+}
+main section#sec5 .top img {
+  max-width: 600px;
+}
+main section#sec5 .btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+main section#sec5 .btm h6 {
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec5 .btm h1 {
+  font-size: 2.8rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec5 .btm p {
+  color: #4A4A4A;
+  font-size: 1.1rem;
+  font-family: "Regular", sans-serif;
+  line-height: 1.4;
+  padding-right: 5.5rem;
+}
+main section#sec5 .btm button {
+  color: #0468D7;
+  background-color: white;
+  border: 0.02rem solid #0468D7;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+main section#sec5 .btm button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #0468D7;
+}
+main section#sec6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 3rem;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
+}
+main section#sec6 .top,
+main section#sec6 .btm {
+  max-width: 1290px;
+}
+main section#sec6 .top img {
+  max-width: 600px;
+}
+main section#sec6 .btm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+main section#sec6 .btm h6 {
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec6 .btm h1 {
+  font-size: 2.8rem;
+  font-family: "Main", sans-serif;
+}
+main section#sec6 .btm p {
+  color: #4A4A4A;
+  font-size: 1.1rem;
+  font-family: "Regular", sans-serif;
+  line-height: 1.4;
+  padding-right: 5.5rem;
+}
+main section#sec6 .btm button {
+  color: white;
+  background-color: #0468D7;
+  border: 0.02rem solid #0468D7;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+main section#sec6 .btm button:hover {
+  cursor: pointer;
+}
+main section#sec7 {
+  width: 100%;
+  height: 40%;
+}
+main section#sec7 .container {
+  margin: 3rem;
+  font-family: "Main", sans-serif;
+  background-color: rgb(21, 21, 84);
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+main section#sec7 .container .top {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+main section#sec7 .container .top h1 {
+  font-size: 3rem;
+}
+main section#sec7 .container .top p {
+  font-size: 1.5rem;
+}
+main section#sec7 .container .top .btns {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+main section#sec7 .container .top .btns button {
+  padding: 0.4rem 1.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: #0468D7;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+main section#sec7 .container .top .btns p {
+  font-size: 0.9rem;
+}
+main section#sec7 .container .btm img {
+  width: 100%;
+}
+main footer {
+  width: 100%;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+main footer .footer-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+main footer .footer-top .logo img {
+  width: 8rem;
+}
+main footer .footer-top #links {
+  padding: 0.5rem 0 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main footer .footer-top #links .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+main footer .footer-top #links .link h6 {
+  font-size: 1rem;
+  font-family: "Main", sans-serif;
+  padding: 2.5rem 0 0 0;
+}
+main footer .footer-top #links .link a {
+  color: #4A4A4A;
+  text-decoration: none;
+  font-family: "Regular", sans-serif;
+  font-size: 1rem;
+}
+main footer .footer-top #links .link a:hover {
+  text-decoration: underline;
+}
+main footer .socials {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  color: #4A4A4A;
+}
+main footer .socials i:hover {
+  cursor: pointer;
+}
+main footer hr {
+  border-top: 3px solid rgba(84, 84, 84, 0.29);
+  border-radius: 3px;
+}
+main footer .footer-btm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0rem;
+  font-family: "Regular", sans-serif;
+  text-align: center;
+  color: #4A4A4A;
+  font-size: 0.9rem;
+}
+main footer .footer-btm .policies {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+main footer .footer-btm .policies a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+main footer .footer-btm .policies a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  main footer .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main footer .footer-top #links {
+    width: 55%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 5rem;
+    padding: 0;
+  }
+  main footer .footer-top #links .link {
+    gap: 1rem;
+  }
+  main footer .footer-top #links .link h6 {
+    padding: 0;
+  }
+  main footer .socials {
+    padding: 6rem 0 1rem;
+    gap: 1.5rem;
+  }
+  main footer .footer-btm {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  main footer .footer-btm p {
+    text-align: left;
+  }
+}
+@media (min-width: 1094px) {
+  main nav {
+    width: 100%;
+  }
+  main nav .top {
+    width: 100%;
+  }
+  main nav .btm {
+    padding: 1rem 3rem;
+  }
+  main nav .btm .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-family: "Main", sans-serif;
+  }
+  main nav .btm .menu a,
+  main nav .btm .menu i,
+  main nav .btm .menu button {
+    display: inline-block;
+  }
+  main nav .btm .menu a {
+    text-decoration: none;
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  main nav .btm .menu a:nth-child(3) {
+    color: rgb(4, 104, 215);
+  }
+  main nav .btm .menu i {
+    font-size: 0.9rem;
+    font-weight: 550;
+  }
+  main nav .btm .menu button {
+    color: #ffffff;
+    background-color: rgb(4, 104, 215);
+    border: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 1.4rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main nav .btm .menu i:last-child {
+    display: none;
+  }
+  main section#sec1 {
+    width: 100%;
+  }
+  main section#sec1 .top {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  main section#sec1 .top h1 {
+    font-size: 4.3rem;
+    text-align: left;
+    padding-left: 5rem;
+  }
+  main section#sec1 .btm {
+    margin: 0 7.5rem;
+    max-width: 1258px;
+  }
+  main section#sec1 .btm h2 {
+    font-size: 2.2rem;
+    max-width: 930px;
+    margin: 6.5rem auto 2.5rem;
+    text-align: center;
+  }
+  main section#sec2 {
+    flex-direction: row;
+  }
+  main section#sec2 .sec2 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0 1rem 3rem 1rem;
+  }
+  main section#sec3 {
+    flex-direction: row-reverse;
+    gap: 2rem;
+    padding: 2.5rem 6rem 2.5rem 6rem;
+    max-width: 1310px;
+  }
+  main section#sec3 .btm {
+    padding: 0 3.5rem 0 1.5rem;
+  }
+  main section#sec3 .btm h1 {
+    font-size: 4rem;
+  }
+  main section#sec4 {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  main section#sec4 .btm {
+    max-width: 550px;
+  }
+  main section#sec4 .btm h1 {
+    font-size: 3.5rem;
+  }
+  main section#sec4 .btm p {
+    font-size: 1.3rem;
+  }
+  main section#sec5 {
+    flex-direction: row-reverse;
+    gap: 3rem;
+    padding: 4rem;
+  }
+  main section#sec5 .btm {
+    max-width: 550px;
+  }
+  main section#sec5 .btm h1 {
+    font-size: 3.5rem;
+    padding-right: 3rem;
+  }
+  main section#sec5 .btm p {
+    font-size: 1.3rem;
+  }
+  main section#sec6 {
+    flex-direction: row;
+    gap: 3rem;
+    padding: 4rem;
+  }
+  main section#sec6 .btm {
+    max-width: 550px;
+  }
+  main section#sec6 .btm h1 {
+    font-size: 3.5rem;
+    padding-right: 3rem;
+  }
+  main section#sec6 .btm p {
+    font-size: 1.3rem;
+  }
+}/*# sourceMappingURL=style.css.map */
