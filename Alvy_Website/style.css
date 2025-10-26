@@ -509,11 +509,17 @@ footer .btm .btm-sec2 #sec2-btm i {
 @media (min-width: 966px) {
   main section#sec1 {
     flex-direction: row;
+    align-items: stretch;
     padding: 1.5rem;
   }
   main section#sec1 .top,
   main section#sec1 .btm {
     width: 50%;
+  }
+  main section#sec1 .top img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   main section#sec1 .btm {
     justify-content: space-between;
@@ -542,6 +548,11 @@ footer .btm .btm-sec2 #sec2-btm i {
   main section#sec3 .btm {
     width: 50%;
   }
+  main section#sec3 .top img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   main section#sec3 .btm {
     justify-content: space-between;
     padding: 2.5rem;
@@ -564,6 +575,11 @@ footer .btm .btm-sec2 #sec2-btm i {
   main section#sec4 .top,
   main section#sec4 .btm {
     width: 50%;
+  }
+  main section#sec4 .top img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   main section#sec4 .btm {
     justify-content: space-between;
@@ -593,6 +609,11 @@ footer .btm .btm-sec2 #sec2-btm i {
   main section#sec6 .top,
   main section#sec6 .btm {
     width: 50%;
+  }
+  main section#sec6 .top img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   main section#sec6 .btm {
     justify-content: space-between;
