@@ -358,57 +358,52 @@ main section#sec6 .btm button:hover {
 }
 main section#sec7 {
   width: 100%;
-  height: 40%;
+  max-width: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.8rem;
+  font-family: "Google";
 }
 main section#sec7 .container {
-  margin: 3rem;
-  font-family: "Main", sans-serif;
-  background-color: rgb(21, 21, 84);
-  border-radius: 1rem;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  position: relative;
-}
-main section#sec7 .container .top {
   width: 100%;
-  height: 100%;
-  color: white;
-  position: absolute;
-  top: 35%;
-  left: 10%;
+  padding: 8rem 3.5rem;
+  border-radius: 3rem;
+  background-color: #0b244a;
+  background-image: url("./assets/sec7-card.png");
+  background-size: cover;
+  background-position: 15% 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: #fff;
+  font-family: "Main", sans-serif;
+}
+main section#sec7 .container h1 {
+  font-size: 3.5rem;
+}
+main section#sec7 .container p {
+  font-size: 1.3rem;
+}
+main section#sec7 .container .btns {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.2rem;
-  align-items: flex-start;
+  gap: 1rem;
 }
-main section#sec7 .container .top h1 {
-  font-size: 3rem;
-}
-main section#sec7 .container .top p {
-  font-size: 1.5rem;
-}
-main section#sec7 .container .top .btns {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-main section#sec7 .container .top .btns button {
-  padding: 0.4rem 1.2rem;
-  border: none;
-  border-radius: 0.8rem;
-  color: #0468D7;
+main section#sec7 .container .btns button {
+  color: white;
+  background-color: #0468D7;
+  border: 0.02rem solid #0468D7;
+  border-radius: 1.5rem;
+  padding: 0.6rem 2.2rem;
   font-size: 0.9rem;
   font-weight: 500;
 }
-main section#sec7 .container .top .btns p {
-  font-size: 0.9rem;
-}
-main section#sec7 .container .btm img {
-  width: 100%;
+main section#sec7 .container .btns a {
+  color: #fff;
+  text-decoration: none;
 }
 main footer {
   width: 100%;
@@ -457,6 +452,7 @@ main footer .footer-top #links .link a:hover {
 }
 main footer .socials {
   padding: 1rem;
+  font-size: 1.3rem;
   display: flex;
   gap: 1rem;
   color: #4A4A4A;
@@ -660,5 +656,30 @@ main footer .footer-btm .policies a:hover {
   }
   main section#sec6 .btm p {
     font-size: 1.3rem;
+  }
+  main section#sec7 {
+    padding: 6rem 11rem;
+  }
+  main section#sec7 .container {
+    max-width: 1600px;
+    width: 1280px;
+    align-items: start;
+    justify-content: space-between;
+    background-position: 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5rem 4.5rem;
+    gap: 1rem;
+  }
+  main section#sec7 .container h1 {
+    font-size: 4rem;
+  }
+  main section#sec7 .container p {
+    font-size: 1.2rem;
+  }
+  main section#sec7 .container .btns {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
