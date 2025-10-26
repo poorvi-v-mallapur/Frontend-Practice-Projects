@@ -101,7 +101,7 @@ main section#sec1 .top h1 {
   max-width: 530px;
 }
 main section#sec1 .btm h2 {
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: 200;
   margin: 6.5rem 0 2.5rem;
   text-align: center;
@@ -140,50 +140,54 @@ main section#sec3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 3rem;
 }
-main section#sec3 .top,
-main section#sec3 .btm {
+main section#sec3 .container {
   max-width: 1290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 4rem;
 }
-main section#sec3 .top {
+main section#sec3 .container .top {
   width: 100%;
 }
-main section#sec3 .top img {
+main section#sec3 .container .top img {
   width: 100%;
   max-width: 600px;
 }
-main section#sec3 .btm {
+main section#sec3 .container .btm {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-items: flex-start;
   gap: 1rem;
 }
-main section#sec3 .btm h6 {
+main section#sec3 .container .btm h6 {
   color: #4A4A4A;
   font-size: 1.2rem;
   font-family: "Main", sans-serif;
 }
-main section#sec3 .btm h1 {
+main section#sec3 .container .btm h1 {
   font-size: 3rem;
   font-family: "Main", sans-serif;
 }
-main section#sec3 .btm p {
+main section#sec3 .container .btm p {
   max-width: 904px;
   color: #4A4A4A;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: "Regular", sans-serif;
   line-height: 1.4;
 }
-main section#sec3 .btm .btns {
+main section#sec3 .container .btm .btns {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin-top: 0.5rem;
   font-family: "Regular", sans-serif;
 }
-main section#sec3 .btm .btns button {
+main section#sec3 .container .btm .btns button {
   color: #0468D7;
   background-color: white;
   border: 0.02rem solid #0468D7;
@@ -192,12 +196,12 @@ main section#sec3 .btm .btns button {
   font-size: 0.9rem;
   font-weight: 600;
 }
-main section#sec3 .btm .btns button:hover {
+main section#sec3 .container .btm .btns button:hover {
   cursor: pointer;
   color: white;
   background-color: #0468D7;
 }
-main section#sec3 .btm .btns p {
+main section#sec3 .container .btm .btns p {
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -207,22 +211,26 @@ main section#sec4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 3rem;
   background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
 }
-main section#sec4 .top,
-main section#sec4 .btm {
+main section#sec4 .container {
+  width: 100%;
   max-width: 1290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 4rem;
 }
-main section#sec4 .top {
+main section#sec4 .container .top {
   width: 100%;
 }
-main section#sec4 .top img {
+main section#sec4 .container .top img {
   width: 100%;
   max-width: 600px;
 }
-main section#sec4 .btm {
+main section#sec4 .container .btm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,23 +238,23 @@ main section#sec4 .btm {
   gap: 1rem;
   margin-top: 1.5rem;
 }
-main section#sec4 .btm h6 {
+main section#sec4 .container .btm h6 {
   color: #4A4A4A;
   font-size: 1.2rem;
   font-family: "Main", sans-serif;
 }
-main section#sec4 .btm h1 {
+main section#sec4 .container .btm h1 {
   font-size: 2.8rem;
   font-family: "Main", sans-serif;
 }
-main section#sec4 .btm p {
+main section#sec4 .container .btm p {
   color: #4A4A4A;
   font-size: 1.1rem;
   font-family: "Regular", sans-serif;
   line-height: 1.4;
-  padding-right: 5.5rem;
+  padding-right: 2rem;
 }
-main section#sec4 .btm button {
+main section#sec4 .container .btm button {
   color: white;
   background-color: #0468D7;
   border: 0.02rem solid #0468D7;
@@ -255,7 +263,7 @@ main section#sec4 .btm button {
   font-size: 0.9rem;
   font-weight: 600;
 }
-main section#sec4 .btm button:hover {
+main section#sec4 .container .btm button:hover {
   cursor: pointer;
 }
 main section#sec5 {
@@ -264,20 +272,23 @@ main section#sec5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 3rem;
 }
-main section#sec5 .top,
-main section#sec5 .btm {
-  max-width: 1290px;
+main section#sec5 .container {
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 4rem;
 }
-main section#sec5 .top {
+main section#sec5 .container .top {
   width: 100%;
 }
-main section#sec5 .top img {
+main section#sec5 .container .top img {
   width: 100%;
   max-width: 600px;
 }
-main section#sec5 .btm {
+main section#sec5 .container .btm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,35 +296,33 @@ main section#sec5 .btm {
   gap: 1rem;
   margin-top: 1.5rem;
 }
-main section#sec5 .btm h6 {
+main section#sec5 .container .btm h6 {
   color: #4A4A4A;
   font-size: 1.2rem;
   font-family: "Main", sans-serif;
 }
-main section#sec5 .btm h1 {
+main section#sec5 .container .btm h1 {
   font-size: 2.8rem;
   font-family: "Main", sans-serif;
 }
-main section#sec5 .btm p {
+main section#sec5 .container .btm p {
   color: #4A4A4A;
   font-size: 1.1rem;
   font-family: "Regular", sans-serif;
   line-height: 1.4;
-  padding-right: 5.5rem;
+  padding-right: 2rem;
 }
-main section#sec5 .btm button {
-  color: #0468D7;
-  background-color: white;
+main section#sec5 .container .btm button {
+  color: white;
+  background-color: #0468D7;
   border: 0.02rem solid #0468D7;
   border-radius: 1.5rem;
   padding: 0.6rem 2.2rem;
   font-size: 0.9rem;
   font-weight: 600;
 }
-main section#sec5 .btm button:hover {
+main section#sec5 .container .btm button:hover {
   cursor: pointer;
-  color: white;
-  background-color: #0468D7;
 }
 main section#sec6 {
   width: 100%;
@@ -321,22 +330,25 @@ main section#sec6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 3rem;
   background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
 }
-main section#sec6 .top,
-main section#sec6 .btm {
-  max-width: 1290px;
+main section#sec6 .container {
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 4rem;
 }
-main section#sec6 .top {
+main section#sec6 .container .top {
   width: 100%;
 }
-main section#sec6 .top img {
+main section#sec6 .container .top img {
   width: 100%;
   max-width: 600px;
 }
-main section#sec6 .btm {
+main section#sec6 .container .btm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -344,23 +356,23 @@ main section#sec6 .btm {
   gap: 1rem;
   margin-top: 1.5rem;
 }
-main section#sec6 .btm h6 {
+main section#sec6 .container .btm h6 {
   color: #4A4A4A;
   font-size: 1.2rem;
   font-family: "Main", sans-serif;
 }
-main section#sec6 .btm h1 {
+main section#sec6 .container .btm h1 {
   font-size: 2.8rem;
   font-family: "Main", sans-serif;
 }
-main section#sec6 .btm p {
+main section#sec6 .container .btm p {
   color: #4A4A4A;
   font-size: 1.1rem;
   font-family: "Regular", sans-serif;
   line-height: 1.4;
-  padding-right: 5.5rem;
+  padding-right: 2rem;
 }
-main section#sec6 .btm button {
+main section#sec6 .container .btm button {
   color: white;
   background-color: #0468D7;
   border: 0.02rem solid #0468D7;
@@ -369,7 +381,7 @@ main section#sec6 .btm button {
   font-size: 0.9rem;
   font-weight: 600;
 }
-main section#sec6 .btm button:hover {
+main section#sec6 .container .btm button:hover {
   cursor: pointer;
 }
 main section#sec7 {
@@ -423,7 +435,7 @@ main section#sec7 .container .btns a {
 }
 main footer {
   width: 100%;
-  padding: 3rem 4rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -440,7 +452,7 @@ main footer .footer-top .logo img {
   width: 8rem;
 }
 main footer .footer-top #links {
-  padding: 0.5rem 0 2rem 1rem;
+  padding: 0.5rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -477,6 +489,7 @@ main footer .socials i:hover {
   cursor: pointer;
 }
 main footer hr {
+  width: 100%;
   border-top: 3px solid rgba(84, 84, 84, 0.29);
   border-radius: 3px;
 }
@@ -618,59 +631,62 @@ main footer .footer-btm .policies a:hover {
     line-height: 1.5;
     padding: 0 1rem 3rem 1rem;
   }
-  main section#sec3 {
+  main section#sec3 .container {
     flex-direction: row-reverse;
-    gap: 2rem;
-    padding: 2.5rem 6rem 2.5rem 6rem;
-    max-width: 1310px;
+    gap: 1rem;
   }
-  main section#sec3 .btm {
-    padding: 0 3.5rem 0 1.5rem;
+  main section#sec3 .container .btm {
+    padding: 0 3rem 0 2.5rem;
   }
-  main section#sec3 .btm h1 {
+  main section#sec3 .container .btm h1 {
     font-size: 4rem;
   }
   main section#sec4 {
+    align-items: center;
+  }
+  main section#sec4 .container {
     flex-direction: row;
     gap: 3rem;
   }
-  main section#sec4 .btm {
+  main section#sec4 .container .btm {
     max-width: 550px;
   }
-  main section#sec4 .btm h1 {
+  main section#sec4 .container .btm h1 {
     font-size: 3.5rem;
   }
-  main section#sec4 .btm p {
+  main section#sec4 .container .btm p {
     font-size: 1.3rem;
   }
   main section#sec5 {
+    align-items: center;
+  }
+  main section#sec5 .container {
     flex-direction: row-reverse;
     gap: 3rem;
-    padding: 4rem;
   }
-  main section#sec5 .btm {
+  main section#sec5 .container .btm {
     max-width: 550px;
   }
-  main section#sec5 .btm h1 {
+  main section#sec5 .container .btm h1 {
     font-size: 3.5rem;
-    padding-right: 3rem;
   }
-  main section#sec5 .btm p {
+  main section#sec5 .container .btm p {
     font-size: 1.3rem;
   }
   main section#sec6 {
+    align-items: center;
+  }
+  main section#sec6 .container {
     flex-direction: row;
     gap: 3rem;
-    padding: 4rem;
   }
-  main section#sec6 .btm {
+  main section#sec6 .container .btm {
     max-width: 550px;
   }
-  main section#sec6 .btm h1 {
+  main section#sec6 .container .btm h1 {
     font-size: 3.5rem;
-    padding-right: 3rem;
   }
-  main section#sec6 .btm p {
+  main section#sec6 .container .btm p {
     font-size: 1.3rem;
   }
   main section#sec7 {

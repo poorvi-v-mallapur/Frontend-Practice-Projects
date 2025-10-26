@@ -120,7 +120,7 @@ main {
 
     .btm {
       h2 {
-        font-size: 2.1rem;
+        font-size: 2rem;
         font-weight: 200;
         margin: 6.5rem 0 2.5rem;
         text-align: center;
@@ -166,72 +166,74 @@ main {
     width: 100%;
     @include flex-col-center();
     justify-content: center;
-    padding: 2rem 3rem;
 
-    .top,
-    .btm {
+    .container {
       max-width: 1290px;
-    }
-
-    .top {
-      width: 100%;
-
-      img {
-        width: 100%;
-        max-width: 600px;
-      }
-    }
-
-    .btm {
       @include flex-col-center();
-      align-items: flex-start;
-      gap: 1rem;
+      justify-content: center;
+      padding: 5rem 4rem;
 
-      h6 {
-        color: #4A4A4A;
-        font-size: 1.2rem;
-        font-family: 'Main', sans-serif;
+      .top {
+        width: 100%;
+
+        img {
+          width: 100%;
+          max-width: 600px;
+        }
       }
 
-      h1 {
-        font-size: 3rem;
-        font-family: 'Main', sans-serif;
-      }
+      .btm {
+        width: 100%;
+        @include flex-col-center();
+        align-items: flex-start;
+        gap: 1rem;
 
-      p {
-        max-width: 904px;
-        color: #4A4A4A;
-        font-size: 1.2rem;
-        font-family: 'Regular', sans-serif;
-        line-height: 1.4;
-      }
-
-      .btns {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        margin-top: 0.5rem;
-        font-family: 'Regular', sans-serif;
-
-        button {
-          color: #0468D7;
-          background-color: white;
-          border: 0.02rem solid #0468D7;
-          border-radius: 1.5rem;
-          padding: 0.6rem 2.2rem;
-          font-size: 0.9rem;
-          font-weight: 600;
+        h6 {
+          color: #4A4A4A;
+          font-size: 1.2rem;
+          font-family: 'Main', sans-serif;
         }
 
-        button:hover {
-          cursor: pointer;
-          color: white;
-          background-color: #0468D7;
+        h1 {
+          font-size: 3rem;
+          font-family: 'Main', sans-serif;
         }
 
         p {
-          font-size: 0.9rem;
-          font-weight: 600;
+          max-width: 904px;
+          color: #4A4A4A;
+          font-size: 1.1rem;
+          font-family: 'Regular', sans-serif;
+          line-height: 1.4;
+        }
+
+        .btns {
+          display: flex;
+          align-items: center;
+          gap: 2rem;
+          margin-top: 0.5rem;
+          font-family: 'Regular', sans-serif;
+
+          button {
+            color: #0468D7;
+            background-color: white;
+            border: 0.02rem solid #0468D7;
+            border-radius: 1.5rem;
+            padding: 0.6rem 2.2rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+          }
+
+          button:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #0468D7;
+          }
+
+          p {
+            font-size: 0.9rem;
+            font-weight: 600;
+          }
         }
       }
     }
@@ -241,62 +243,63 @@ main {
     width: 100%;
     @include flex-col-center();
     justify-content: center;
-    padding: 4rem 3rem;
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
 
-    .top,
-    .btm {
-      max-width: 1290px;
-    }
-
-    .top {
+    .container {
       width: 100%;
-
-      img {
-        width: 100%;
-        max-width: 600px;
-      }
-    }
-
-    .btm {
+      max-width: 1290px;
       @include flex-col-center();
-      align-items: flex-start;
-      gap: 1rem;
-      margin-top: 1.5rem;
+      justify-content: center;
+      padding: 5rem 4rem;
 
+      .top {
+        width: 100%;
 
-      h6 {
-        color: #4A4A4A;
-        font-size: 1.2rem;
-        font-family: 'Main', sans-serif;
+        img {
+          width: 100%;
+          max-width: 600px;
+        }
       }
 
-      h1 {
-        font-size: 2.8rem;
-        font-family: 'Main', sans-serif;
-      }
+      .btm {
+        @include flex-col-center();
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1.5rem;
 
-      p {
-        color: #4A4A4A;
-        font-size: 1.1rem;
-        font-family: 'Regular', sans-serif;
-        line-height: 1.4;
-        padding-right: 5.5rem;
-      }
+        h6 {
+          color: #4A4A4A;
+          font-size: 1.2rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button {
-        color: white;
-        background-color: #0468D7;
-        border: 0.02rem solid #0468D7;
-        border-radius: 1.5rem;
-        padding: 0.6rem 2.2rem;
-        font-size: 0.9rem;
-        font-weight: 600;
-      }
+        h1 {
+          font-size: 2.8rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button:hover {
-        cursor: pointer;
+        p {
+          color: #4A4A4A;
+          font-size: 1.1rem;
+          font-family: 'Regular', sans-serif;
+          line-height: 1.4;
+          padding-right: 2rem;
+        }
+
+        button {
+          color: white;
+          background-color: #0468D7;
+          border: 0.02rem solid #0468D7;
+          border-radius: 1.5rem;
+          padding: 0.6rem 2.2rem;
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -305,62 +308,60 @@ main {
     width: 100%;
     @include flex-col-center();
     justify-content: center;
-    padding: 4rem 3rem;
-
-    .top,
-    .btm {
-      max-width: 1290px;
-    }
-
-    .top {
-      width: 100%;
-
-      img {
-        width: 100%;
-        max-width: 600px;
-      }
-    }
-
-    .btm {
+  
+    .container {
+      max-width: 1250px;
       @include flex-col-center();
-      align-items: flex-start;
-      gap: 1rem;
-      margin-top: 1.5rem;
+      justify-content: center;
+      padding: 5rem 4rem;
 
+      .top {
+        width: 100%;
 
-      h6 {
-        color: #4A4A4A;
-        font-size: 1.2rem;
-        font-family: 'Main', sans-serif;
+        img {
+          width: 100%;
+          max-width: 600px;
+        }
       }
 
-      h1 {
-        font-size: 2.8rem;
-        font-family: 'Main', sans-serif;
-      }
+      .btm {
+        @include flex-col-center();
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1.5rem;
 
-      p {
-        color: #4A4A4A;
-        font-size: 1.1rem;
-        font-family: 'Regular', sans-serif;
-        line-height: 1.4;
-        padding-right: 5.5rem;
-      }
+        h6 {
+          color: #4A4A4A;
+          font-size: 1.2rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button {
-        color: #0468D7;
-        background-color: white;
-        border: 0.02rem solid #0468D7;
-        border-radius: 1.5rem;
-        padding: 0.6rem 2.2rem;
-        font-size: 0.9rem;
-        font-weight: 600;
-      }
+        h1 {
+          font-size: 2.8rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button:hover {
-        cursor: pointer;
-        color: white;
-        background-color: #0468D7;
+        p {
+          color: #4A4A4A;
+          font-size: 1.1rem;
+          font-family: 'Regular', sans-serif;
+          line-height: 1.4;
+          padding-right: 2rem;
+        }
+
+        button {
+          color: white;
+          background-color: #0468D7;
+          border: 0.02rem solid #0468D7;
+          border-radius: 1.5rem;
+          padding: 0.6rem 2.2rem;
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -369,62 +370,62 @@ main {
     width: 100%;
     @include flex-col-center();
     justify-content: center;
-    padding: 4rem 3rem;
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(35deg, rgb(252, 252, 226) 40%, rgb(245, 251, 254) 90%);
 
-    .top,
-    .btm {
-      max-width: 1290px;
-    }
-
-    .top {
-      width: 100%;
-
-      img {
-        width: 100%;
-        max-width: 600px;
-      }
-    }
-
-    .btm {
+    .container {
+      max-width: 1250px;
       @include flex-col-center();
-      align-items: flex-start;
-      gap: 1rem;
-      margin-top: 1.5rem;
+      justify-content: center;
+      padding: 5rem 4rem;
 
+      .top {
+        width: 100%;
 
-      h6 {
-        color: #4A4A4A;
-        font-size: 1.2rem;
-        font-family: 'Main', sans-serif;
+        img {
+          width: 100%;
+          max-width: 600px;
+        }
       }
 
-      h1 {
-        font-size: 2.8rem;
-        font-family: 'Main', sans-serif;
-      }
+      .btm {
+        @include flex-col-center();
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 1.5rem;
 
-      p {
-        color: #4A4A4A;
-        font-size: 1.1rem;
-        font-family: 'Regular', sans-serif;
-        line-height: 1.4;
-        padding-right: 5.5rem;
-      }
+        h6 {
+          color: #4A4A4A;
+          font-size: 1.2rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button {
-        color: white;
-        background-color: #0468D7;
-        border: 0.02rem solid #0468D7;
-        border-radius: 1.5rem;
-        padding: 0.6rem 2.2rem;
-        font-size: 0.9rem;
-        font-weight: 600;
-      }
+        h1 {
+          font-size: 2.8rem;
+          font-family: 'Main', sans-serif;
+        }
 
-      button:hover {
-        cursor: pointer;
+        p {
+          color: #4A4A4A;
+          font-size: 1.1rem;
+          font-family: 'Regular', sans-serif;
+          line-height: 1.4;
+          padding-right: 2rem;
+        }
+
+        button {
+          color: white;
+          background-color: #0468D7;
+          border: 0.02rem solid #0468D7;
+          border-radius: 1.5rem;
+          padding: 0.6rem 2.2rem;
+          font-size: 0.9rem;
+          font-weight: 600;
+        }
+
+        button:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -469,12 +470,12 @@ main {
 
         button {
           color: white;
-        background-color: #0468D7;
-        border: 0.02rem solid #0468D7;
-        border-radius: 1.5rem;
-        padding: 0.6rem 2.2rem;
-        font-size: 0.9rem;
-        font-weight: 500;
+          background-color: #0468D7;
+          border: 0.02rem solid #0468D7;
+          border-radius: 1.5rem;
+          padding: 0.6rem 2.2rem;
+          font-size: 0.9rem;
+          font-weight: 500;
         }
 
         a {
@@ -487,7 +488,7 @@ main {
 
   footer {
     width: 100%;
-    padding: 3rem 4rem;
+    padding: 3rem;
     @include flex-col-center();
     align-items: flex-start;
 
@@ -501,7 +502,7 @@ main {
       }
 
       #links {
-        padding: 0.5rem 0 2rem 1rem;
+        padding: 0.5rem 0 2rem 0;
         @include flex-col-center();
 
         .link {
@@ -542,6 +543,7 @@ main {
     }
 
     hr {
+      width: 100%;
       border-top: 3px solid rgba(84, 84, 84, 0.29);
       border-radius: 3px;
     }
@@ -721,71 +723,79 @@ main {
     }
 
     section#sec3 {
-      flex-direction: row-reverse;
-      gap: 2rem;
-      padding: 2.5rem 6rem 2.5rem 6rem;
-      max-width: 1310px;
+      .container {
+        flex-direction: row-reverse;
+        gap: 1rem;
 
-      .btm {
-        padding: 0 3.5rem 0 1.5rem;
+        .btm {
+          padding: 0 3rem 0 2.5rem;
 
-        h1 {
-          font-size: 4rem;
+          h1 {
+            font-size: 4rem;
+          }
         }
       }
     }
 
     section#sec4 {
-      flex-direction: row;
-      gap: 3rem;
+      align-items: center;
 
-      .btm {
-        max-width: 550px;
+      .container {
+        flex-direction: row;
+        gap: 3rem;
 
-        h1 {
-          font-size: 3.5rem;
-        }
+        .btm {
+          max-width: 550px;
 
-        p {
-          font-size: 1.3rem;
+          h1 {
+            font-size: 3.5rem;
+          }
+
+          p {
+            font-size: 1.3rem;
+          }
         }
       }
     }
 
     section#sec5 {
-      flex-direction: row-reverse;
-      gap: 3rem;
-      padding: 4rem;
+      align-items: center;
 
-      .btm {
-        max-width: 550px;
+      .container {
+        flex-direction: row-reverse;
+        gap: 3rem;
 
-        h1 {
-          font-size: 3.5rem;
-          padding-right: 3rem;
-        }
+        .btm {
+          max-width: 550px;
 
-        p {
-          font-size: 1.3rem;
+          h1 {
+            font-size: 3.5rem;
+          }
+
+          p {
+            font-size: 1.3rem;
+          }
         }
       }
     }
 
     section#sec6 {
-      flex-direction: row;
-      gap: 3rem;
-      padding: 4rem;
+      align-items: center;
 
-      .btm {
-        max-width: 550px;
+      .container {
+        flex-direction: row;
+        gap: 3rem;
 
-        h1 {
-          font-size: 3.5rem;
-          padding-right: 3rem;
-        }
+        .btm {
+          max-width: 550px;
 
-        p {
-          font-size: 1.3rem;
+          h1 {
+            font-size: 3.5rem;
+          }
+
+          p {
+            font-size: 1.3rem;
+          }
         }
       }
     }
