@@ -146,7 +146,11 @@ main section#sec3 .top,
 main section#sec3 .btm {
   max-width: 1290px;
 }
+main section#sec3 .top {
+  width: 100%;
+}
 main section#sec3 .top img {
+  width: 100%;
   max-width: 600px;
 }
 main section#sec3 .btm {
@@ -211,7 +215,11 @@ main section#sec4 .top,
 main section#sec4 .btm {
   max-width: 1290px;
 }
+main section#sec4 .top {
+  width: 100%;
+}
 main section#sec4 .top img {
+  width: 100%;
   max-width: 600px;
 }
 main section#sec4 .btm {
@@ -262,7 +270,11 @@ main section#sec5 .top,
 main section#sec5 .btm {
   max-width: 1290px;
 }
+main section#sec5 .top {
+  width: 100%;
+}
 main section#sec5 .top img {
+  width: 100%;
   max-width: 600px;
 }
 main section#sec5 .btm {
@@ -317,7 +329,11 @@ main section#sec6 .top,
 main section#sec6 .btm {
   max-width: 1290px;
 }
+main section#sec6 .top {
+  width: 100%;
+}
 main section#sec6 .top img {
+  width: 100%;
   max-width: 600px;
 }
 main section#sec6 .btm {
