@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(227, 221, 213, 0.765);
+}
+
+body {
+  padding-bottom: 1rem;
+}
+
+body > h1 {
+    width: 100%;
+    color: rgb(40, 40, 40);
+    background-color: rgb(185, 194, 155);
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.option {
+    background-color: rgba(239, 235, 235, 0.701);
+    padding: 1.5rem;
+    font-size: 3.5rem;
+    border: 0.001rem solid rgba(0, 0, 0, 0.301);
+    border-radius: 50%;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 0.02rem solid  rgb(40, 40, 40);
+}
+
+#scores {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.score h1, h2 {
+    color: rgb(40, 40, 40);
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+button {
+    color: rgb(40, 40, 40);
+    background-color: rgb(225, 234, 197);
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.8rem;
+    border: 0.02rem solid  rgb(71, 70, 70);
+}
+
+#instructions {
+  width: 65%;
+  margin: 1rem auto;
+  padding: 1.5rem 2rem;
+  background: rgba(239, 235, 235, 0.701); /* Solid white base — clean and stable */
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#instructions h2 {
+  margin-bottom: 0.6rem;
+  color: rgb(40,40,40);
+  font-size: 1.4rem;
+}
+
+#instructions p {
+  color: rgb(50, 50, 50);
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+#instructions ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0.8rem;
+}
+
+#instructions li {
+  margin: 0.4rem 0;
+  font-size: 1.05rem;
+  color: rgb(45,45,45);
+}
+
+@media (max-width: 455px) {
+    #options {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    #result {
+        margin: 0.5rem 2rem;
+    }   
+}
+
+@media (max-width: 595px) {
+    #instructions {
+        width: 80%;
+    }
+}
