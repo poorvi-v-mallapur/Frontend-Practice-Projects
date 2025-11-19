@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(210, 249, 249);
+}
+#main {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+   gap: 20px;
+}
+.card {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.btm {
+    height: 10%;
+    width: 100%;
+    color: rgb(243, 233, 233);
+    background: linear-gradient(transparent, rgb(224, 215, 215));
+    position: absolute;
+    bottom: -40%;
+
+    transition: all ease 0.3s;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.btm .icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons i {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.card:hover .btm{
+    bottom: 0;
+}
